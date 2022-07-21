@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage Web App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="front_page">
+            <h1 class="titleee">Collage Web App</h1>
+            <p>To create your own collage click on the "Send Pic" button and take your pic</p>
+        </div>
+        <br><br>
+        <div class="slideshow carousel">
+          <img class="mySlides" src="dubaicollage.png" id="dubai">
+          <img class="mySlides" src="sky.png" id="sky">
+          <img class="mySlides" src="nature.png" id="nature">
+        </div>
+        <br>
+        <canvas id="output"></canvas>
+        <br><br>
+        <div id="camera" style="height: 300px; width: 400px; border: 1px solid black;"></div>
+        <br><br>
+    <button id="startbtn" class="py-3 px-5" onclick="send()">Send Pic</button> 
+   <span class="material-symbols-outlined" onclick="download()">
+    download
+    </span>
+    </center>
+    <br><br>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.front_page{
+    background-color:#29A2B7;
+    height: 209px;
+    width: auto;
+    text-align: center;
+}
+.titleee,p{
+    color: white;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+  top: -8px;
+}
+.titleee{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+}
+#dubai{
+    
+    height: 100%;
+}
+#sky{
+    
+    height: 100%;
+}
+#nature{
+    
+    height: 100%;
+}
+
+#startbtn{
+    background-color: #E88F2A;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #E88F2A;
+    color: whitesmoke;
+    font-size: 20px;
+   
+
+}
+
+#output{
+    height: 600px;
+    width: 1000px;
+    border: 1px solid rgba(0, 0, 0, 0.854);
+    background-color: black;
+}
+
